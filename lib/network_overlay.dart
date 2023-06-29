@@ -45,8 +45,6 @@ class _NetworkOverlayState extends State<NetworkOverlay> {
   }
 
   void _updateConnectivityStatus(ConnectivityResult result) {
-    print("test");
-    print(ConnectivityResult.values);
     setState(() {
       _isOffline = (result == ConnectivityResult.none);
     });
