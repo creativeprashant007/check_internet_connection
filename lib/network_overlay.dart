@@ -64,7 +64,7 @@ class _NetworkOverlayState extends State<NetworkOverlay> {
                   'No Internet Connection',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 20.0,
+                    fontSize: 18.0,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
