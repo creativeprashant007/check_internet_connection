@@ -47,7 +47,7 @@ class MyHomePage extends StatelessWidget {
         title: const Text('Network Connection Testing'),
       ),
       body: const Center(
-        child: Text('Your App Content'),
+        child: Text('App Content'),
       ),
     );
   }
